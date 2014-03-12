@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OctoCoins from being stolen by malware infecting your computer.</source>
+        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your octocoins from being stolen by malware infecting your computer.</source>
         <translation>Şifreleme işlemini tamamlamak için OctoCoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, OctoCoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
@@ -1069,7 +1069,7 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start OctoCoin: click-to-pay handler</source>
+        <source>Cannot start octocoin: click-to-pay handler</source>
         <translation>OctoCoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
 </context>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or OctoCoind</source>
-        <translation>-server ya da OctoCoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or octocoind</source>
+        <translation>-server ya da octocoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: OctoCoin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: OctoCoin.conf)</translation>
+        <source>Specify configuration file (default: octocoin.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: octocoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: OctoCoind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: OctoCoind.pid)</translation>
+        <source>Specify pid file (default: octocoind.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: octocoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2272,8 +2272,8 @@ Adres: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22888 or testnet: 32888)</source>
-        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 22888 veya tesnet: 32888)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
+        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: 9332 veya tesnet: 19332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2300,7 +2300,7 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2311,7 +2311,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OctoCoin Alert&quot; admin@foo
         <translation>%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
 %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
@@ -2363,7 +2363,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;OctoCoin Alert&quot; admin@foo.com
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - OctoCoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
+        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - octocoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <location line="+5"/>

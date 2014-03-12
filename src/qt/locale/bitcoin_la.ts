@@ -274,7 +274,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="-56"/>
-        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OctoCoins from being stolen by malware infecting your computer.</source>
+        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your octocoins from being stolen by malware infecting your computer.</source>
         <translation>OctoCoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ Inscriptio: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start OctoCoin: click-to-pay handler</source>
+        <source>Cannot start octocoin: click-to-pay handler</source>
         <translation>OctoCoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
 </context>
@@ -1899,7 +1899,7 @@ Inscriptio: %4
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Hoc frustum non acceptum est ab ulla alia nodis et probabiOctor non acceptum erit!</translation>
+        <translation>Hoc frustum non acceptum est ab ulla alia nodis et probabiliter non acceptum erit!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2196,8 +2196,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or OctoCoind</source>
-        <translation>Mitte mandatum ad -server vel OctoCoind</translation>
+        <source>Send command to -server or octocoind</source>
+        <translation>Mitte mandatum ad -server vel octocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: OctoCoin.conf)</source>
-        <translation>Specifica configurationis plicam (praedefinitum: OctoCoin.conf)</translation>
+        <source>Specify configuration file (default: octocoin.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: octocoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: OctoCoind.pid)</source>
-        <translation>Specifica pid plicam (praedefinitum: OctoCoin.pid)</translation>
+        <source>Specify pid file (default: octocoind.pid)</source>
+        <translation>Specifica pid plicam (praedefinitum: octocoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2271,8 +2271,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22888 or testnet: 32888)</source>
-        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: 22888 vel testnet: 32888)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
+        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: 9332 vel testnet: 19332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2299,7 +2299,7 @@ Inscriptio: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2310,7 +2310,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OctoCoin Alert&quot; admin@foo
         <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
 %s
 Hortatur te hanc fortuitam tesseram uti:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (non est necesse te hanc tesseram meminisse)
 Nomen usoris et tessera eadem esse NON POSSUNT.
@@ -2332,7 +2332,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;OctoCoin Notificatio&quot; 
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. OctoCoin is probably already running.</source>
-        <translation>Non posse serare datorum indicem %s.  OctoCoin probabiOctor iam operatur.</translation>
+        <translation>Non posse serare datorum indicem %s.  OctoCoin probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2362,7 +2362,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;OctoCoin Notificatio&quot; 
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - noOcto utere fodendo vel applicationibus mercatoriis</translation>
+        <translation>Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - nolite utere fodendo vel applicationibus mercatoriis</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2882,7 +2882,7 @@ exempli gratia: alertnotify=echo %%s | mail -s &quot;OctoCoin Notificatio&quot; 
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. OctoCoin is probably already running.</source>
-        <translation>Non posse conglutinare ad %s in hoc cumputatro.  OctoCoin probabiOctor iam operatur.</translation>
+        <translation>Non posse conglutinare ad %s in hoc cumputatro.  OctoCoin probabiliter iam operatur.</translation>
     </message>
     <message>
         <location line="+64"/>

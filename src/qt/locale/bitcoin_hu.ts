@@ -274,7 +274,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="-56"/>
-        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OctoCoins from being stolen by malware infecting your computer.</source>
+        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your octocoins from being stolen by malware infecting your computer.</source>
         <translation>OctoCoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
     </message>
     <message>
@@ -1069,7 +1069,7 @@ Cím: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start OctoCoin: click-to-pay handler</source>
+        <source>Cannot start octocoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1365,7 +1365,7 @@ Cím: %4
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi OctoCoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi octocoin az egyenlegeden.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2198,8 +2198,8 @@ Cím: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or OctoCoind</source>
-        <translation>Parancs küldése a -serverhez vagy a OctoCoindhez
+        <source>Send command to -server or octocoind</source>
+        <translation>Parancs küldése a -serverhez vagy a octocoindhez
 </translation>
     </message>
     <message>
@@ -2222,14 +2222,14 @@ Cím: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: OctoCoin.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: OctoCoin.conf)
+        <source>Specify configuration file (default: octocoin.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: octocoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: OctoCoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: OctoCoind.pid)
+        <source>Specify pid file (default: octocoind.pid)</source>
+        <translation>pid-fájl (alapértelmezett: octocoind.pid)
 </translation>
     </message>
     <message>
@@ -2280,8 +2280,8 @@ Cím: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22888 or testnet: 32888)</source>
-        <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 22888 or testnet: 32888)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
+        <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 9332 or testnet: 19332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2311,7 +2311,7 @@ Cím: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2880,7 +2880,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OctoCoin Alert&quot; admin@foo
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Nincs elég OctoCoinod.</translation>
+        <translation>Nincs elég octocoinod.</translation>
     </message>
     <message>
         <location line="+10"/>

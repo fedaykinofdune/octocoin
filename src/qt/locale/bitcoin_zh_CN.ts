@@ -5,12 +5,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About OctoCoin</source>
-        <translation>关于OctoCoin</translation>
+        <translation>关于八币</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;OctoCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;OctoCoin&lt;/b&gt;版本</translation>
+        <translation>&lt;b&gt;八币&lt;/b&gt;版本</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -21,11 +21,11 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-这是一套试验性软件。
+This is experimental software.
 
-此软件是依据 MIT/X11 软件授权条款发布，详情请见附带的 COPYING 文件，或是以下网站：http://www.opensource.org/licenses/mit-license.php。
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-本产品亦包含由 OpenSSL Project 所开发的 OpenSSL Toolkit (http://www.openssl.org) 软件，和由Eric Young (eay@cryptsoft.com) 编写加密软件，以及托马斯伯纳德开发的UPnP应用软件。</translation>
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="+14"/>
@@ -68,7 +68,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your OctoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来收款的OctoCoin地址。为了标记不同的资金来源，建议为每个付款人设置不同的收款地址。</translation>
+        <translation>这是您用来收款的八币地址。为了标记不同的资金来源，建议为每个付款人保留不同的收款地址。</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -108,7 +108,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified OctoCoin address</source>
-        <translation>验证消息，确保消息是由指定的OctoCoin地址签名过的。</translation>
+        <translation>验证消息，确保消息是由指定的八币地址签名过的。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your OctoCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是您用来付款的OctoCoin地址。在付款前，请务必检查付款金额和收款地址。</translation>
+        <translation>这是您用来付款的八币地址。在付款前，请总是核实付款金额和收款地址。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -249,7 +249,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OCTOCOINS&lt;/b&gt;!</source>
-        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的OctoCoin&lt;/b&gt;！</translation>
+        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的八币&lt;/b&gt;！</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -259,13 +259,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要提示：您以前备份的钱包文件应该替换成最新生成的加密钱包文件（重新备份）。出于安全性考虑，请使用新的加密后的钱包而不是之前未加密的钱包文件，您以前备份的未加密的钱包文件将无效。</translation>
+        <translation>重要提示：您以前备份的钱包文件应该替换成最新生成的加密钱包文件（重新备份）。从安全性上考虑，您以前备份的未加密的钱包文件，在您使用新的加密钱包后将无效，请重新备份。</translation>
     </message>
     <message>
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告：大写字母锁定键处于打开状态！</translation>
+        <translation>警告：大写锁定键处于打开状态！</translation>
     </message>
     <message>
         <location line="-130"/>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OctoCoins from being stolen by malware infecting your computer.</source>
-        <translation>OctoCoin 将关闭软件以完成加密过程。请您谨记：钱包加密并不是万能的，电脑被感染恶意软件，您的OctoCoin还是有可能丢失。</translation>
+        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your octocoins from being stolen by malware infecting your computer.</source>
+        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的八币还是有可能丢失。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -289,7 +289,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>由于一个内部错误，加密钱包操作已经失败。您的钱包没有被加密。</translation>
+        <translation>由于一个本地错误，加密钱包操作已经失败。您的钱包没有被加密。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -375,7 +375,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about OctoCoin</source>
-        <translation>显示OctoCoin的相关信息</translation>
+        <translation>显示八币的相关信息</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,12 +420,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a OctoCoin address</source>
-        <translation>向一个OctoCoin地址发送OctoCoin</translation>
+        <translation>向一个八币地址发送八币</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for OctoCoin</source>
-        <translation>修改OctoCoin配置</translation>
+        <translation>设置选项</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,7 +456,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-165"/>
         <location line="+530"/>
         <source>OctoCoin</source>
-        <translation>OctoCoin</translation>
+        <translation>八币</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,7 +481,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>&amp;About OctoCoin</source>
-        <translation>&amp;关于OctoCoin</translation>
+        <translation>&amp;关于八币</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,12 +501,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Sign messages with your OctoCoin addresses to prove you own them</source>
-        <translation>用OctoCoin地址关联的私钥为消息签名，以证明您拥有这个OctoCoin地址</translation>
+        <translation>用八币地址关联的私钥为消息签名，以证明您拥有这个八币地址</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified OctoCoin addresses</source>
-        <translation>校验消息，确保该消息是由指定的OctoCoin地址所有者已经签名过的</translation>
+        <translation>校验消息，确保该消息是由指定的八币地址所有者签名的</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,17 +537,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+47"/>
         <source>OctoCoin client</source>
-        <translation>OctoCoin客户端</translation>
+        <translation>八币客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to OctoCoin network</source>
-        <translation><numerusform>到OctoCoin网络的连接共有%n条</numerusform></translation>
+        <translation><numerusform>到八币网络的连接共有%n条</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
         <source>No block source available...</source>
-        <translation>没有源数据块...</translation>
+        <translation>No block source available...</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -607,7 +607,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>该交易的数额超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于OctoCoin网络的运行。您愿意支付这笔交易费用吗？</translation>
+        <translation>该交易的字节数超标。您可以选择支付%1的交易费给处理您的交易的网络节点，有助于八币网络的运行。您愿意支付这笔交易费用吗？</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -657,7 +657,7 @@ Address: %4
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid OctoCoin address or malformed URI parameters.</source>
-        <translation>URI无法解析！原因可能是OctoCoin地址不正确，或者URI参数错误。</translation>
+        <translation>URI无法解析！原因可能是八币地址不正确，或者URI参数错误。</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -672,7 +672,7 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. OctoCoin can no longer continue safely and will quit.</source>
-        <translation>出现了致命错误。OctoCoin无法继续安全运行，即将退出。</translation>
+        <translation>发生严重错误。</translation>
     </message>
 </context>
 <context>
@@ -738,7 +738,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid OctoCoin address.</source>
-        <translation>您输入的 &quot;%1&quot; 不是合法的OctoCoin地址.</translation>
+        <translation>您输入的 &quot;%1&quot; 不是合法的八币地址.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -782,7 +782,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>设置语言, 例如 &quot;zh_CN&quot; (缺省: 系统语言)</translation>
+        <translation>设置语言, 例如 &quot;de_DE&quot; (缺省: 系统语言)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -793,7 +793,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>启动时显示版权页 (默认: 启用)</translation>
+        <translation>启动时显示版权页 (缺省: 1)</translation>
     </message>
 </context>
 <context>
@@ -811,7 +811,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>为每kB支付交易费可确保您的交易被快速处理。大多数交易是1kB。</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
@@ -821,7 +821,7 @@ Address: %4
     <message>
         <location line="+31"/>
         <source>Automatically start OctoCoin after logging in to the system.</source>
-        <translation>登录系统后自动开启OctoCoin客户端</translation>
+        <translation>登录系统后自动开启八币客户端</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -846,7 +846,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the OctoCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开OctoCoin端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
+        <translation>自动在路由器中打开八币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -856,12 +856,12 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Connect to the OctoCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>通过SOCKS代理服务器连接OctoCoin网络(例如：通过Tor连接)</translation>
+        <translation>通过代理服务器连接八币网络(例如：通过Tor连接)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;通过SOCKS代理连接:</translation>
+        <translation>&amp;通过Socks代理连接:</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -886,12 +886,12 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;版本</translation>
+        <translation>Socks &amp;版本</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>SOCKS代理版本 (例如 5)</translation>
+        <translation>Socks代理版本 (例如 5)</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -916,7 +916,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;单击关闭按钮使其最小化</translation>
+        <translation>单击关闭按钮最小化</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -936,22 +936,22 @@ Address: %4
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;OctoCoin金额单位:</translation>
+        <translation>&amp;八币金额单位:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>当发送OctoCoin时，在界面选择默认单位。</translation>
+        <translation>选择八币单位。</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show OctoCoin addresses in the transaction list or not.</source>
-        <translation>是否需要在交易清单中显示OctoCoin地址。</translation>
+        <translation>是否需要在交易清单中显示八币地址。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>在交易清单中&amp;显示OctoCoin地址</translation>
+        <translation>在交易清单中&amp;显示八币地址</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1017,7 +1017,7 @@ Address: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OctoCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能会过期。在连接上OctoCoin网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
+        <translation>现在显示的消息可能是过期的. 在连接上八币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1070,8 +1070,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start OctoCoin: click-to-pay handler</source>
-        <translation>暂时无法启动OctoCoin：点击支付功能</translation>
+        <source>Cannot start octocoin: click-to-pay handler</source>
+        <translation>暂时无法启动八币：点击支付功能</translation>
     </message>
 </context>
 <context>
@@ -1186,7 +1186,7 @@ Address: %4
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation>当前为OctoCoin测试网络</translation>
+        <translation>当前为八币测试网络</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1221,7 +1221,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Show the OctoCoin-Qt help message to get a list with possible OctoCoin command-line options.</source>
-        <translation>显示 OctoCoin-Qt 命令行选项帮助信息</translation>
+        <translation>显示OctoCoin命令行选项帮助信息</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1241,12 +1241,12 @@ Address: %4
     <message>
         <location line="-104"/>
         <source>OctoCoin - Debug window</source>
-        <translation>OctoCoin - 调试窗口</translation>
+        <translation>八币 - 调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>OctoCoin Core</source>
-        <translation>OctoCoin核心</translation>
+        <translation>八币核心</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1386,7 +1386,7 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误: 交易被拒绝. 如果您使用的是备份钱包，可能存在两个钱包不同步的情况，另一个钱包中的OctoCoin已经被使用，但本地的这个钱包尚没有记录。</translation>
+        <translation>错误: 交易被拒绝. 如果您使用的是备份钱包，可能存在两个钱包不同步的情况，另一个钱包中的八币已经被使用，但本地的这个钱包尚没有记录。</translation>
     </message>
 </context>
 <context>
@@ -1450,7 +1450,7 @@ Address: %4
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a OctoCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>请输入OctoCoin地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>请输入八币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1551,7 +1551,7 @@ Address: %4
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified OctoCoin address</source>
-        <translation>验证消息，确保消息是由指定的OctoCoin地址签名过的。</translation>
+        <translation>验证消息，确保消息是由指定的八币地址签名过的。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1567,7 +1567,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a OctoCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>请输入OctoCoin地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>请输入八币地址 (例如: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1577,7 +1577,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Enter OctoCoin signature</source>
-        <translation>输入OctoCoin签名</translation>
+        <translation>输入八币签名</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1785,7 +1785,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>新挖出的OctoCoin必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的OctoCoin将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。</translation>
+        <translation>新挖出的八币必须等确120个确认才能使用。您生产出的数据块，将被广播到全网并添加到数据块链。如果入链失败，状态将变为“未被接受”，意味着您的数据块竞争失败，挖出的八币将不能使用。当某个节点先于你几秒生产出新的数据块，这种情况会偶尔发生。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1946,7 +1946,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>接收OctoCoin的时间</translation>
+        <translation>接收八币的时间</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2138,7 +2138,7 @@ Address: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>发送OctoCoin</translation>
+        <translation>发送八币</translation>
     </message>
 </context>
 <context>
@@ -2189,7 +2189,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>OctoCoin version</source>
-        <translation>OctoCoin版本</translation>
+        <translation>八币版本</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2198,8 +2198,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or OctoCoind</source>
-        <translation>发送命令到服务器或者 OctoCoind
+        <source>Send command to -server or octocoind</source>
+        <translation>发送命令到服务器或者 octocoind
 </translation>
     </message>
     <message>
@@ -2222,14 +2222,14 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: OctoCoin.conf)</source>
-        <translation>指定配置文件 (默认为 OctoCoin.conf)
+        <source>Specify configuration file (default: octocoin.conf)</source>
+        <translation>指定配置文件 (默认为 octocoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: OctoCoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 OctoCoind.pid)
+        <source>Specify pid file (default: octocoind.pid)</source>
+        <translation>指定 pid 文件 (默认为 octocoind.pid)
 </translation>
     </message>
     <message>
@@ -2280,8 +2280,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22888 or testnet: 32888)</source>
-        <translation>JSON-RPC连接监听端口&lt;port&gt; (缺省：22888　testnet：32888)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
+        <translation>JSON-RPC连接监听端口&lt;port&gt; (缺省：9332　testnet：19332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2312,7 +2312,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2323,7 +2323,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OctoCoin Alert&quot; admin@foo
         <translation>%s, 您必须在配置文件设置rpcpassword:
  %s
 建议您使用下面的随机密码:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (您无需记住此密码)
 用户名和密码 必! 须! 不一样。
@@ -2345,12 +2345,12 @@ rpcpassword=%s
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. OctoCoin is probably already running.</source>
-        <translation>无法给数据目录 %s 上锁。本软件可能已经在运行。</translation>
+        <translation>无法给数据目录 %s上锁。本软件可能已经在运行。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的OctoCoin已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了OctoCoin，但是这个钱包文件中没有记录。</translation>
+        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的八币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了八币，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2390,7 +2390,7 @@ rpcpassword=%s
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OctoCoin will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致OctoCoin客户端运行异常。</translation>
+        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致八币客户端运行异常。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2400,7 +2400,7 @@ rpcpassword=%s
     <message>
         <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>警告：钱包文件wallet.dat已损坏! 原始的钱包文件已经备份到%s目录下并重命名为{timestamp}.bak 。如果您的账户余额或者交易记录不正确，请使用备份的钱包文件来恢复它。</translation>
+        <translation>警告：钱包文件wallet.dat损坏! 原始的钱包文件已经备份到%s目录下并重命名为{timestamp}.bak 。如果您的账户余额或者交易记录不正确，请使用您的钱包备份文件恢复。</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2440,17 +2440,17 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>初始化钱包数据环境出错 %s!</translation>
+        <translation>Error initializing wallet database environment %s!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>加载数据块数据库出错</translation>
+        <translation>导入数据块数据库出错</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>打开数据块数据库出错</translation>
+        <translation>导入数据块数据库出错</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2530,7 +2530,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>生成OctoCoin (默认：开启)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
@@ -2545,7 +2545,7 @@ rpcpassword=%s
     <message>
         <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation>没有足够的文件描述符.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
@@ -2590,12 +2590,12 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>无效的数额 -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>无效的数额 -mintxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
@@ -2655,7 +2655,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>把跟踪/调试信息输出到调试器</translation>
+        <translation>跟踪/调试信息输出到 调试器debugger</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2675,7 +2675,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation>签名交易失败</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
@@ -2690,17 +2690,17 @@ rpcpassword=%s
     <message>
         <location line="+4"/>
         <source>Transaction amount too small</source>
-        <source>交易数额太小</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction amounts must be positive</source>
-        <source>交易数额必须是正数</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction too large</source>
-        <source>交易数额太大</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
@@ -2736,7 +2736,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>您需要使用 -reindex 替换 -txindex 重建数据库</translation>
+        <translation>You need to rebuild the databases using -reindex to change -txindex</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2825,7 +2825,7 @@ rpcpassword=%s
     <message>
         <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>使用 -addnode, -seednode 和 -connect 选项时允许DNS查找</translation>
+        <translation>使用 -addnode, -seednode 和 -connect选项时允许DNS查找</translation>
     </message>
     <message>
         <location line="+55"/>
@@ -2900,12 +2900,12 @@ rpcpassword=%s
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>添加节点并尝试与其保持连接</translation>
+        <translation>添加节点并与其保持连接</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Unable to bind to %s on this computer. OctoCoin is probably already running.</source>
-        <translation>无法在本机绑定 %s 端口 . OctoCoin客户端软件可能已经在运行。</translation>
+        <translation>无法在本机绑定 %s 端口 . 八币客户端软件可能已经在运行.</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -2952,9 +2952,9 @@ rpcpassword=%s
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>您必须在配置文件中加入选项 rpcpassword=&lt;password&gt; :
-  %s
- 如果配置文件不存在，请新建，并将文件权限设置为仅允许文件所有者读取。</translation>
-     </message>
+        <translation>您必须在配置文件中加入选项 rpcpassword :
+ %s
+如果配置文件不存在，请新建，并将文件权限设置为仅允许文件所有者读取.</translation>
+    </message>
 </context>
 </TS>

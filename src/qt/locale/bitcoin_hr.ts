@@ -63,7 +63,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your OctoCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ovo su vaše OctoCoin adrese za primanje isplate. Možda žeOcto dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
+        <translation>Ovo su vaše OctoCoin adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -249,7 +249,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Jeste li sigurni da žeOcto šifrirati svoj novčanik?</translation>
+        <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OctoCoins from being stolen by malware infecting your computer.</source>
-        <translation>OctoCoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše OctoCoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+        <source>OctoCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your octocoins from being stolen by malware infecting your computer.</source>
+        <translation>OctoCoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše octocoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a OctoCoin address</source>
-        <translation>Slanje novca na OctoCoin adresu</translation>
+        <translation>Slanje novca na octocoin adresu</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for OctoCoin</source>
-        <translation>Promijeni postavke konfiguracije za OctoCoin</translation>
+        <translation>Promijeni postavke konfiguracije za octocoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -733,7 +733,7 @@ Adresa:%4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid OctoCoin address.</source>
-        <translation>Upisana adresa &quot;%1&quot; nije valjana OctoCoin adresa.</translation>
+        <translation>Upisana adresa &quot;%1&quot; nije valjana octocoin adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -935,7 +935,7 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio OctoCoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio octocoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1064,7 +1064,7 @@ Adresa:%4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start OctoCoin: click-to-pay handler</source>
+        <source>Cannot start octocoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1340,7 +1340,7 @@ Adresa:%4
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Jeste li sigurni da žeOcto poslati %1?</translation>
+        <translation>Jeste li sigurni da želite poslati %1?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1494,7 +1494,7 @@ Adresa:%4
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Upišite poruku koju žeOcto potpisati ovdje</translation>
+        <translation>Upišite poruku koju želite potpisati ovdje</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2192,8 +2192,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or OctoCoind</source>
-        <translation>Pošalji komandu usluzi -server ili OctoCoind</translation>
+        <source>Send command to -server or octocoind</source>
+        <translation>Pošalji komandu usluzi -server ili octocoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adresa:%4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: OctoCoin.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: OctoCoin.conf)</translation>
+        <source>Specify configuration file (default: octocoin.conf)</source>
+        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: octocoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: OctoCoind.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: OctoCoin.pid)</translation>
+        <source>Specify pid file (default: octocoind.pid)</source>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: octocoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2267,8 +2267,8 @@ Adresa:%4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22888 or testnet: 32888)</source>
-        <translation>Prihvaćaj JSON-RPC povezivanje na portu broj &lt;port&gt; (ugrađeni izbor: 22888 or testnet: 32888)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
+        <translation>Prihvaćaj JSON-RPC povezivanje na portu broj &lt;port&gt; (ugrađeni izbor: 9332 or testnet: 19332)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2295,7 +2295,7 @@ Adresa:%4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=OctoCoinrpc
+rpcuser=octocoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2863,7 +2863,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OctoCoin Alert&quot; admin@foo
     <message>
         <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Unesite nod s kojim se žeOcto spojiti and attempt to keep the connection open</translation>
+        <translation>Unesite nod s kojim se želite spojiti and attempt to keep the connection open</translation>
     </message>
     <message>
         <location line="-25"/>
