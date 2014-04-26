@@ -46,9 +46,9 @@ static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
 /** Fake height value used in CCoins to signify they are only in the memory pool (since 0.8) */
 static const unsigned int MEMPOOL_HEIGHT = 0x7FFFFFFF;
 /** Dust Soft Limit, allowed with additional fee per output */
-static const int64 DUST_SOFT_LIMIT = 1000000; // 0.01 888
+static const int64 DUST_SOFT_LIMIT = 100000; // 0.001 888
 /** Dust Hard Limit, ignored as wallet inputs (mininput default) */
-static const int64 DUST_HARD_LIMIT = 10000;   // 0.0001 888 mininput
+static const int64 DUST_HARD_LIMIT = 1000;   // 0.00001 888 mininput
 /** No amount larger than this (in satoshi) is valid */
 static const int64 MAX_MONEY = 88888888 * COIN;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
@@ -509,6 +509,11 @@ public:
     {
         return SerializeHash(*this);
     }
+	
+	uint256 GetNormalizedHash() const
+	{
+		return SignatureHash(CScript(), *this, 0, SIGHASH_ALL);
+	}
 
     bool IsFinal(int nBlockHeight=0, int64 nBlockTime=0) const
     {
@@ -1112,6 +1117,8 @@ public:
 /** A transaction with a merkle branch linking it to the block chain. */
 class CMerkleTx : public CTransaction
 {
+private:
+	int GetDepthInMainChainINTERNAL(CBlockIndex* &pindexRet) const;
 public:
     uint256 hashBlock;
     std::vector<uint256> vMerkleBranch;
@@ -1150,9 +1157,14 @@ public:
 
 
     int SetMerkleBranch(const CBlock* pblock=NULL);
+	
+	// Return depth of transaction in blockchain:
+	// -1  : not in blockchain, and not in memory pool (conflicted transaction)
+	//  0  : in memory pool, waiting to be included in a block
+	// >=1 : this many blocks deep in the main chain
     int GetDepthInMainChain(CBlockIndex* &pindexRet) const;
     int GetDepthInMainChain() const { CBlockIndex *pindexRet; return GetDepthInMainChain(pindexRet); }
-    bool IsInMainChain() const { return GetDepthInMainChain() > 0; }
+    bool IsInMainChain() const { CBlockIndex *pindexRet; return GetDepthInMainChainINTERNAL(pindexRet) > 0; }
     int GetBlocksToMaturity() const;
     bool AcceptToMemoryPool(bool fCheckInputs=true, bool fLimitFree=true);
 };
@@ -1902,13 +1914,15 @@ private:
         MODE_ERROR,   // run-time error
     } mode;
     int nDoS;
+	bool corruptionPossible;
 public:
-    CValidationState() : mode(MODE_VALID), nDoS(0) {}
-    bool DoS(int level, bool ret = false) {
+    CValidationState() : mode(MODE_VALID), nDoS(0), corruptionPossible(false) {}
+    bool DoS(int level, bool ret = false, bool corruptionIn = false) {
         if (mode == MODE_ERROR)
             return ret;
         nDoS += level;
         mode = MODE_INVALID;
+		corruptionPossible = corruptionIn;
         return ret;
     }
     bool Invalid(bool ret = false) {
@@ -1938,6 +1952,9 @@ public:
         }
         return false;
     }
+	bool CorruptionPossible() {
+		return corruptionPossible;
+	}
 };
 
 
